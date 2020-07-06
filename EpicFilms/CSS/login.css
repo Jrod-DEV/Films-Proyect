@@ -1,4 +1,8 @@
 /*MOBILE FIRST*/
+body{
+    background: url("/images/portada.jpg");
+}
+
 .logo{
     position: fixed;
     top: 0;
@@ -10,6 +14,7 @@
 }
 
 .logo > a {
+    text-shadow: blur-radius white;
     color: blanchedalmond;
     text-decoration: none;
     display: inline-block;
@@ -19,7 +24,11 @@
     font-weight: bold; 
 }
 
-
-
-
-
+.form {
+    font-family: 'Play', sans-serif;
+    padding: 20vw;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
