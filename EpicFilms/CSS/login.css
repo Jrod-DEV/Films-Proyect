@@ -32,3 +32,11 @@ body{
     margin-right: auto;
     display: table;
 }
+
+#username {
+    text-align: center;
+}
+
+section.login {
+    text-align: center;
+}
