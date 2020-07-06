@@ -1,34 +1,7 @@
-.logo {
-    font-size: 2rem;
-    display: flex;
-    justify-content: center;
-
-    border: solid black;
-    width: 100%;
-    height: 40px;
-}
 
 .login {
     display: flex;
     flex-direction: column;
     justify-content: center;
 
-}
-
-.init {
-    text-align: center;
-}
-
-.header {
-    background-image: url(./images/1-movie-2-signage-under-white-clouds-1200450.jpg) top center no-repeat;
-    background-size: cover;
-
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-h1{
-    text-align: center;
 }
