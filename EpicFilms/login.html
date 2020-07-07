@@ -11,30 +11,27 @@
 </head>
 
 <body>
-    
-    <div class="logo">
-        <a href="./login.html">Epic Films</a>   
-    </div>
-    <main class="form">
-    <section class="login">
+    <header><h1>Epic Films</h1></header>
 
-        <form name="username" id="username">LOGIN</form>
-        <p>
-            <label for="text" id="name" name="name">Username</label>
-            <input type="text" id="name" name="name">
-        </p>
-        <p>
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password">
-        </p>
-        <p>
-            <label for="submit">Let´s go!</label>
-            <input type="submit" id="submit" name="submit">
-        </p>
-    </section>
-</main>
+
+    <div class="container">
+     <main class="form">
+     <section class="form-login">
+
+        <form name=login><h3>Iniciar Sesión</h3></form>
+
+            <input class="controls" type="text" id="name" name="name" placeholder="Correo o número de teléfono">
+            <input class="controls" type="password" id="password" name="password" placeholder="Constaseña">
+            <input class="go" type="submit" id="submit" name="submit" value="GO!">
+            <p>Recuérdame<input type="checkbox"></p>
+            <p><a href="#">¿Has olvidado tu contraseña?</a></p>
+      </section>
+     </main>
+    </div>
 <footer>
-    <div class="footer">Footer</div>
+    <div class="footer-login"></div>
+    <a href="#">Terminos de uso</a>
+    <a href="#">Declaración de privacidad</a>
 </footer>
 </body>
 </html>

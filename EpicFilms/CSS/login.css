@@ -1,21 +1,15 @@
 /*MOBILE FIRST*/
 body{
-    background: url("/images/portada.jpg");
+    background-image: url("");
 }
+ a:hover {
+     cursor: pointer;
+ }
 
-.logo{
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    height: var(--navbar-height);
-    z-index: 100;
-    background-color: black;
-    
-}
 
 .logo > a {
     text-shadow: blur-radius white;
-    color: blanchedalmond;
+    color: #CB1C01;
     text-decoration: none;
     display: inline-block;
     padding: 0 1rem;
@@ -24,19 +18,42 @@ body{
     font-weight: bold; 
 }
 
-.form {
+.container {
+    background-color: black;
+    color: blanchedalmond;
+    width: 100vw;
+    height: 100vh;
+}
+
+.form-login {
     font-family: 'Play', sans-serif;
-    padding: 20vw;
-    margin-top: 50px;
+    background-color: # 00 00 00;
+    padding: 30px;
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 4px;
     display: table;
 }
 
-#username {
-    text-align: center;
+.form-login h3 {
+    font-size: 1.5rem;
 }
 
-section.login {
-    text-align: center;
+.controls {
+    width: 100%;
+    color: #640F02;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid ;
+}
+
+.go {
+    background-color: #CB1C01;
+    width: 100%;
+    margin: 0px 0px 16px;
+    border: 1px solid;
+    border-radius: 4px;
+
 }
