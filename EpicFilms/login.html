@@ -7,31 +7,35 @@
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./CSS/header.css">
     <link rel="stylesheet" href="./CSS/login.css">
+    <link rel="stylesheet" href="./CSS/login-footer.css">
     <title>Epic Films</title>
 </head>
 
 <body>
-    <header><h1>Epic Films</h1></header>
+    <header>
+        <h1 class="head" >Epic Films</h1>
+    </header>
 
-
-    <div class="container">
      <main class="form">
-     <section class="form-login">
+     <section class="login">
 
-        <form name=login><h3>Iniciar Sesión</h3></form>
-
+        <form name="form"><h1>Iniciar Sesión</h1>
             <input class="controls" type="text" id="name" name="name" placeholder="Correo o número de teléfono">
-            <input class="controls" type="password" id="password" name="password" placeholder="Constaseña">
-            <input class="go" type="submit" id="submit" name="submit" value="GO!">
-            <p>Recuérdame<input type="checkbox"></p>
-            <p><a href="#">¿Has olvidado tu contraseña?</a></p>
-      </section>
+            <input class="controls" type="password" id="password" name="password" placeholder="Contraseña">
+            <input id="go" class="controls" type="submit" id="submit" name="submit" value="GO!">
+            <div class="more">Recuérdame<input type="checkbox"></div>
+            <div class="more"><a href="#">¿Necesitas ayuda?</a></div>
+            <div class="more">¿Todavía sin acceso a Epic Films? <a href="#">Suscríbete!</a></div>
+        </form>   
+    </section>
      </main>
-    </div>
-<footer>
-    <div class="footer-login"></div>
-    <a href="#">Terminos de uso</a>
-    <a href="#">Declaración de privacidad</a>
+<footer class="footer-login">
+    <address>
+        <span>¿Preguntas? Llama al 555-555</span>
+    </address>
+     <a href="#">Terminos de uso</a>
+     <a href="#">Declaración de privacidad</a>
+     
 </footer>
 </body>
 </html>

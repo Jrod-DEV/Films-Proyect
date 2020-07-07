@@ -1,3 +1,6 @@
-.login-footer {
-    
+.footer-login {
+    padding: 30px;
+    margin-inline: 16px;
+    text-align: center;
+    line-height: 40px;
 }
