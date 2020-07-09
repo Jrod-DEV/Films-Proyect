@@ -1,7 +1,9 @@
 /*MOBILE FIRST*/
 
 *{
-background: black;
+    background: black;
+    
+    background-image: url('/images/portada.jpg');
 }
 
 header {

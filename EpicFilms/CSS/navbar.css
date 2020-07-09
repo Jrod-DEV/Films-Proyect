@@ -1,0 +1,18 @@
+.header {
+
+    background-color: #640F02;
+    width: 100%;
+    height: 80px;
+}
+.header_img {
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.header_menu {
+    margin-right: 30px;
+}
+.menu_perfil {
+    margin-right: 8px;
+    width: 40px;
+}
