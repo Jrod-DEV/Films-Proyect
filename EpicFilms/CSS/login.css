@@ -80,9 +80,10 @@ header {
     font-weight: bold;
 }
 
-address {
+address{
     text-decoration: none;
     color: blanchedalmond;
+    font-size: 1rem;
 }
 
 @media screen and (orientation: landscape){
